@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+}
+.font-roboto-condensed {
+  font-family: "Roboto Condensed", sans-serif;
+}
