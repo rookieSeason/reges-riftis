@@ -2,6 +2,7 @@
 import { Element } from "react-scroll";
 import { motion } from "framer-motion";
 import { FaDiscord } from "react-icons/fa";
+// import {Link} from "react"
 
 export default function JoinNow() {
   return (
@@ -13,7 +14,7 @@ export default function JoinNow() {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-4xl md:text-6xl font-bold mb-4 font-roboto-condensed uppercase text-sky-950 dark:text-cyan-500 tracking-tight italic"
+        className="text-5xl md:text-8xl font-bold mb-2 font-roboto-condensed uppercase text-sky-950 dark:text-cyan-500 tracking-tight italic"
       >
         Join Reges Riftis
       </motion.h1>
@@ -34,7 +35,7 @@ export default function JoinNow() {
         href="/"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 font-manrope text-gray-50 dark:text-gray-800 bg-sky-950 hover:bg-sky-800 dark:bg-cyan-500 dark:hover:bg-cyan-600 px-6 py-3 font-medium transition"
+        className="inline-flex items-center gap-2 font-manrope text-gray-50 dark:text-gray-800 bg-sky-950 hover:bg-sky-800 dark:bg-cyan-500 dark:hover:bg-cyan-600 px-6 py-3 font-semibold"
         style={{
           clipPath:
             "polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px)",

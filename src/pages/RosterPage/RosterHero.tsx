@@ -22,7 +22,7 @@ export default function RosterHero(): JSX.Element {
         initial="initial"
         animate={isInView ? "animate" : "initial"}
         transition={{ duration: 0.5, ease: easeInOut }}
-        className="text-4xl sm:text-5xl md:text-6xl font-extrabold font-roboto-condensed mb-4 text-sky-950 dark:text-cyan-500 tracking-tight italic"
+        className="text-5xl sm:text-6xl md:text-7xl font-extrabold font-roboto-condensed mb-2 text-sky-950 dark:text-cyan-500 tracking-tight italic"
       >
         MEET THE RIFTIS
       </motion.h1>
