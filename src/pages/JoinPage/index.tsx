@@ -14,7 +14,7 @@ export default function JoinNow() {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-5xl md:text-8xl font-bold mb-2 font-roboto-condensed uppercase text-sky-950 dark:text-cyan-500 tracking-tight italic"
+        className="text-4xl md:text-8xl font-bold mb-2 font-roboto-condensed uppercase text-sky-950 dark:text-cyan-500 tracking-tight italic"
       >
         Join Reges Riftis
       </motion.h1>

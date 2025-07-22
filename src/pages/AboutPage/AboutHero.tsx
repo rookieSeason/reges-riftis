@@ -23,7 +23,7 @@ export default function AboutHero() {
           initial="initial"
           animate={isInView ? "animate" : "initial"}
           transition={{ duration: 0.4, ease: easeInOut }}
-          className="text-5xl md:text-6xl font-extrabold font-roboto-condensed mb-6 text-sky-950 dark:text-cyan-500 tracking-tight italic"
+          className="text-5xl md:text-7xl font-extrabold font-roboto-condensed mb-6 text-sky-950 dark:text-cyan-500 tracking-tight italic"
         >
           AGGRESIVE. FLASHY. ELITE
         </motion.h2>
