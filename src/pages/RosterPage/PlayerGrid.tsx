@@ -15,6 +15,7 @@ interface Player {
   stats: {
     winRate: string;
     kda: string;
+    totalMatches: string;
     mainChampions: string[];
   };
   achievements: string[];
